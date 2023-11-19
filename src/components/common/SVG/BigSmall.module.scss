@@ -1,0 +1,27 @@
+.small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.big {
+    display: none;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}

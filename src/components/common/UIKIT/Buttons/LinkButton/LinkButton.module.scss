@@ -1,0 +1,48 @@
+.link {
+  padding: 9px 32px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.6; 
+  color: var(--main-text-color);
+  background-color: var(--accent-blue);
+  border: 1px solid var(--accent-blue);
+  text-decoration: none;
+  border-radius: 72px; 
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    color: var(--button-hover-text);
+    background-color: var(--button-hover);
+    border: 1px solid var(--button-hover);
+  }
+
+  &:active {
+    background-color: var(--button-active);
+    border: 1px solid var(--button-active);
+  }
+
+  &_light {
+    background-color: transparent;
+
+
+    &:hover {
+      color: var(--main-text-color);
+      background-color: transparent;
+      border: 1px solid var(--button-hover);
+    }
+  
+    &:active {
+      color: var(--main-text-color);
+      background-color: transparent;
+      border: 1px solid var(--button-active);
+    }
+  }
+}
+
+@media screen and (max-width:1439px) {
+  .link {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}

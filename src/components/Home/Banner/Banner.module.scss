@@ -1,0 +1,150 @@
+.wings {
+  position: relative;
+  padding-top: 128px;
+  padding-bottom: 120px;
+  background: url('/images/banner/decore1.png') top left,
+                    url('/images/banner/decore2.png') top right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+    
+    .title {
+      margin: 25px 0 61px;
+      font-family: var(--IBM-Plex-Sans);
+      font-size: 100px;
+      font-weight: 700;
+      line-height: 1.2;
+      letter-spacing: 2px;
+    }
+    
+    .text {
+      margin: 0;
+      margin-bottom: 222px;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 1.4;
+      letter-spacing: -0.24px;
+    }
+    
+    .link {
+      padding: 24px 108px;
+      text-transform: uppercase;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1;
+      border-radius: 80px;
+    }
+}
+
+
+// @media screen and (max-width:1580px) {
+@media screen and (max-width:1919px) {
+  .wings {
+    padding-top: 64px;
+    padding-bottom: 100px;
+  }
+
+  .wrapper {
+
+    .title {
+      margin: 36px 0 64px;
+      font-size: 80px;
+      letter-spacing: 1.6px;
+    }
+  
+    .text {
+      margin-bottom: 154px;
+      font-size: 18px;
+      line-height: 1.4;
+    }
+  
+    .link {
+      padding: 18px 81px;
+      border-radius: 60px;
+    }
+  }
+}
+
+@media screen and (max-width:1439px) {
+  .wings {
+    padding-top: 48px;
+    padding-bottom: 80px;
+  }
+
+  .wrapper {
+
+    .title {
+      margin: 26px 0 46px;
+      font-size: 64px;
+      letter-spacing: 1.28px;
+    }
+  
+    .text {
+      margin-bottom: 144px;
+      font-size: 16px;
+    }
+  
+    .link {
+      padding: 15px 67px;
+      border-radius: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .wings {
+    padding-top: 32px;
+    padding-bottom: 0;
+    background: none;
+  }
+
+  .wrapper {
+
+    .title {
+      margin: 40px 0 32px;
+      font-size: 48px;
+      line-height: 1.35;
+      letter-spacing: 0.96px;
+    }
+  
+    .text {
+      margin-bottom: 68px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.2;
+    }
+  
+    .link {
+      padding: 11.5px 74px;
+      border-radius: 80px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wings {
+    padding-top: 72px;
+  }
+
+  .wrapper {
+
+    .title {
+      margin: 24px 0 24px;
+      font-size: 44px;
+      line-height: 1.4;
+      letter-spacing: 0.88px;
+    }
+  
+    .text {
+      margin-bottom: 120px;
+    }
+  }
+}

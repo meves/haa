@@ -1,0 +1,35 @@
+:root {
+    /* colors */
+    --transparent: transparent;
+    --pure-white: #FFF;
+    --main-text-color: #0e0e42;
+    --placeholder-color: rgba(14, 14, 66, 0.6);
+    --logo-blue: #4E82F4;
+    --accent-blue: #729DFB;
+    --button-hover: #9665FF;
+    --button-active: #1EA4EF;
+    --button-hover-text: #FDFFFF;
+    --input-border: var(--main-text-color);
+    --error-color: #DD06A1;
+
+    --button-hover: #72C5E9;
+    --button-active: #1EA4EF;
+    --button-disabled: #B6B6BB;
+
+    /* backgrounds */
+    --main-bg: #E9EEFC;
+    
+    /* fonts */
+    --open-sans: 'Open Sans', sans-serif;
+    --roboto-condensed: 'Roboto Condensed', sans-serif;
+    --IBM-Plex-Sans: 'IBM Plex Sans', sans-serif;
+    
+    /* sizes */
+    --content-width: 1448px; // 1408 + 2x20
+    --content-padding: 20px;
+    --content-padding-on-1440: 190px;
+    --content-padding-on-1200: 160px;
+    --content-padding-tablet: 32px;
+    --content-padding-mobile: 24px;
+
+}

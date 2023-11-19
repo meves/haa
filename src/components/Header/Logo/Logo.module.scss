@@ -1,0 +1,35 @@
+.logoWrapper {
+  display: flex;
+  text-decoration: none;
+}
+
+.logoWord {
+  margin: 0;
+  font-family: var(--IBM-Plex-Sans);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.72px;
+  color: var(--main-text-color);
+
+  &::first-letter {
+    text-transform: uppercase;
+    color: var(--logo-blue);
+  }
+}
+
+@media screen and (max-width:1439px) {
+  .logoWord {
+    font-size: 20px;
+    letter-spacing: 0.6px;
+  }  
+}
+
+@media screen and (max-width:1199px) {
+  .logoWord {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.42px;
+  }  
+}

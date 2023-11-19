@@ -1,0 +1,20 @@
+.input {
+    background-color: transparent;
+    border: 1px solid #0E0E4299;
+    border-radius: 10px;
+
+    &-smartphone {
+        width: 312px;
+        height: 32px;
+    }
+
+    &-tablet {
+        width: 640px;
+        height: 48px;
+    }
+
+    &-desktop {
+        width: 768px;
+        height: 48px;
+    }
+}

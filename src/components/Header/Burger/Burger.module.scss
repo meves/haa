@@ -1,0 +1,12 @@
+.burger {
+  display: block;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+  .burger {
+    display: none;
+  }
+}

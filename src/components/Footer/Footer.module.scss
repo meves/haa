@@ -1,0 +1,155 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 99px;
+  padding-top: 45px;
+  padding-bottom: 49px;
+}
+
+.logoWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+}
+
+.copyright {
+  margin: 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.legalLinksWrapper {
+  display: flex;
+}
+
+.link {
+  color: inherit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:first-of-type {
+    margin-right: 32px;
+  }
+
+  &:last-of-type {
+    padding-left: 32px;
+    border-left: 1px solid var(--main-text-color);    
+  }
+}
+
+// @media screen and (max-width:1580px) {
+@media screen and (max-width:1919px) {
+  .footer {
+    padding-top: 17px;
+    padding-bottom: 18px;
+    align-items: center;
+  }
+
+  .logoWrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  } 
+  
+  .link {
+    &:first-of-type {
+      margin-right: 16px;
+    }
+  
+    &:last-of-type {
+      padding-left: 16px;
+    }
+  }
+}
+
+@media screen and (max-width:1439px) {
+  .footer {
+    padding-top: 17px;
+    padding-bottom: 18px;
+    align-items: center;
+  }
+
+  .logoWrapper {
+    gap: 4px;
+  } 
+  
+  .copyright {
+    font-size: 12px;
+  }
+
+  .link {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:1199px) {
+  .footer {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    align-items: center;
+  }
+
+  .logoWrapper {
+    gap: 0;
+  } 
+  
+  .copyright {
+    font-size: 8px;
+    line-height: 1.35;
+  }
+
+  .link {
+    font-size: 10px;
+    line-height: 1.35;
+
+    &:first-of-type {
+      margin-right: 8px;
+    }
+  
+    &:last-of-type {
+      padding-left: 8px;
+    }
+  }
+}
+
+@media screen and (max-width:767px) {
+  .footer {
+    gap: 30px;
+  }
+  
+  .logoWrapper {
+    gap: 0;
+  }
+  
+  .copyright {
+    font-size: 8px;
+    line-height: 1.35;
+  }
+
+  .legalLinksWrapper {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .link {
+    font-size: 10px;
+    line-height: 1.35;
+
+    &:first-of-type {
+      margin-right: 0;
+    }
+  
+    &:last-of-type {
+      padding-left: 0;
+      border: 0;
+    }
+  }
+}

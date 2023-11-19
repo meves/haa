@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.langItem {
+  padding-bottom: 1px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33;
+  opacity: 0.4;
+  cursor: pointer;
+
+  &_selected {
+    font-weight: 600;
+    opacity: 1;
+    border-bottom: 1px solid var(--main-text-color);
+  }
+}
+
+@media screen and (max-width:1439px) {
+  .langItem {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
+

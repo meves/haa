@@ -1,0 +1,30 @@
+.menu {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.faqLink {
+  border: 2px solid var(--accent-blue);
+}
+
+.loginLink {
+  border: 1px solid var(--accent-blue);
+  background-color: var(--accent-blue);
+}
+
+.rigthWrapper {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+@media screen and (max-width:1199px) {
+  .menu {
+    display: none;
+  }
+}
+
+.mobile__login {
+  padding: 9.5px 67.5px;
+}
